@@ -1,13 +1,12 @@
 const repeatNumbers = function(data) {
     let string = ''
     for (let i = 0; i < data.length ; i++){
-      for (let j = 0 ; i < data[i][1]; j++){
       string += data[i][0]
-      }
-         if (i < (data.length-1)) {
+      if (i < (data.length-1)) {
         string += ','
       }
-    }
+      }
+        
     return string
   
   };
